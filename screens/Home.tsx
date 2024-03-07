@@ -1,7 +1,7 @@
 // screens/Home.js
 
-import React, { useState } from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import React, {useState} from 'react';
+import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -25,8 +25,7 @@ export default function Home() {
 
       <TouchableOpacity
         onPress={handleDecreament}
-        style={{ ...styles.btn, backgroundColor: "#6e3b3b" }}
-      >
+        style={{...styles.btn, backgroundColor: '#6e3b3b'}}>
         <Text style={styles.btn_text}> Decrement </Text>
       </TouchableOpacity>
     </View>
@@ -35,29 +34,29 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    flexDirection: "column",
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    flexDirection: 'column',
     padding: 50,
   },
   title_text: {
     fontSize: 40,
-    fontWeight: "900",
+    fontWeight: '900',
     marginBottom: 55,
   },
   counter_text: {
     fontSize: 35,
-    fontWeight: "900",
+    fontWeight: '900',
     margin: 15,
   },
   btn: {
-    backgroundColor: "#086972",
+    backgroundColor: '#086972',
     padding: 10,
     margin: 10,
     borderRadius: 10,
   },
   btn_text: {
     fontSize: 23,
-    color: "#fff",
+    color: '#fff',
   },
 });

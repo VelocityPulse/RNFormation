@@ -1,12 +1,12 @@
 // redux/actions/countAction.js
 export const increment = () => {
-    return {
-      type: 'COUNT_INCRESE',
-    };
+  return {
+    type: 'COUNT_INCRESE',
   };
-   
-  export const decrement = () => {
-    return {
-      type: 'COUNT_DECRESE',
-    };
+};
+
+export const decrement = () => {
+  return {
+    type: 'COUNT_DECRESE',
   };
+};

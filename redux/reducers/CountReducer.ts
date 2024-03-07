@@ -12,7 +12,10 @@ interface CountAction {
   type: string;
 }
 
-const countReducer = (state: State = initialState, action: CountAction): State => {
+const countReducer = (
+  state: State = initialState,
+  action: CountAction,
+): State => {
   switch (action.type) {
     case 'COUNT_INCREASE':
       return {
