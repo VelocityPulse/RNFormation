@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Solde.app"
-               BlueprintName = "Solde"
-               ReferencedContainer = "container:Solde.xcodeproj">
+               BuildableName = "RNFormation2.app"
+               BlueprintName = "RNFormation2"
+               ReferencedContainer = "container:RNFormation2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SoldeTests.xctest"
-               BlueprintName = "SoldeTests"
-               ReferencedContainer = "container:Solde.xcodeproj">
+               BuildableName = "RNFormation2Tests.xctest"
+               BlueprintName = "RNFormation2Tests"
+               ReferencedContainer = "container:RNFormation2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Solde.app"
-            BlueprintName = "Solde"
-            ReferencedContainer = "container:Solde.xcodeproj">
+            BuildableName = "RNFormation2.app"
+            BlueprintName = "RNFormation2"
+            ReferencedContainer = "container:RNFormation2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Solde.app"
-            BlueprintName = "Solde"
-            ReferencedContainer = "container:Solde.xcodeproj">
+            BuildableName = "RNFormation2.app"
+            BlueprintName = "RNFormation2"
+            ReferencedContainer = "container:RNFormation2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
